@@ -6,7 +6,7 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color: #a51515;
+    background-color: white;
     align-items: center;
     padding: 20px 10%;
 }
@@ -20,4 +20,108 @@
 a{
 text-decoration: none;
 font-size: 1.5rem;
+}
+
+header{
+    height: 95vh;
+    background:
+        linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+        url("./image/banner.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* .header-content{
+    width: 800px;
+    text-align: center;
+    color: white;
+
+    margin-top: 140px;
+}
+
+.header-content h1{
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1.1;
+
+    margin-bottom: 25px;
+}
+
+.header-content p{
+    font-size: 1.5rem;
+    line-height: 1.6;
+
+    max-width: 750px;
+    margin: 0 auto 55px;
+}
+
+.header-content button{
+    background-color: #2563eb;
+    color: white;
+
+    border: none;
+    border-radius: 15px;
+
+    padding: 18px 45px;
+
+    font-size: 1.3rem;
+    font-weight: bold;
+
+    cursor: pointer;
+    margin-top: 550px;
+} */
+
+
+
+.header-content{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    gap: 30px;            
+    text-align: center;
+    color: white;
+
+    width: 800px;
+    margin: 140px auto 0;
+}
+
+.header-content button{
+    margin-top: 500px;
+    color: white;
+    background-color: #1D4ED8;
+    border: none;
+    padding: 22px 45px;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    
+}
+
+.header-content p{
+    font-size: 1.70rem;
+    margin-top: 26px;
+}
+
+.header-content h1{
+    font-size: 4rem;
+    margin-top: 136px;
+}
+
+.register-button a{
+
+    background-color: #1D4ED8;
+    border: none;
+    border-radius: 15px;
+    padding: 22px 45px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+    
+    
 }
